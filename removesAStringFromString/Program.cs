@@ -4,7 +4,7 @@ namespace removesAStringFromString
 {
     class Program
     {
-        static string removesStringByKeyword(string toRemove, String input)
+        static string removesStringByKeyword(string toRemove, string input)
         {
             var arrayInput = input.Split(" ");
             var newString = "";
