@@ -23,7 +23,7 @@ namespace removesAStringFromString
         static void Main(string[] args)
         {
             string strIn = "This is a sample of string, this is to remove: AnyCharRemoveMeOthreString RemoveMe";
-            Console.WriteLine(removesStringByKeyword("RemoveMe", strIn));
+            Console.WriteLine(removesStringByKeyword("RemoveMe", strIn)); // Output: "This is a sample of string, this is to remove:"
         }
     }
 }
