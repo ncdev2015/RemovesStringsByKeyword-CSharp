@@ -4,7 +4,7 @@ namespace removesAStringFromString
 {
     class Program
     {
-        static string removesStringByKeyword(string toRemove, string input)
+        static string RemovesStringByKeyword(string toRemove, string input)
         {
             var arrayInput = input.Split(" ");
             var newString = "";
@@ -23,7 +23,7 @@ namespace removesAStringFromString
         static void Main(string[] args)
         {
             string strIn = "This is a sample of string, this is to remove: AnyCharRemoveMeOthreString RemoveMe";
-            Console.WriteLine(removesStringByKeyword("RemoveMe", strIn)); // Output: "This is a sample of string, this is to remove:"
+            Console.WriteLine(RemovesStringByKeyword("RemoveMe", strIn)); // Output: "This is a sample of string, this is to remove:"
         }
     }
 }
